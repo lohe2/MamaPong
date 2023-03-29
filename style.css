@@ -1,0 +1,56 @@
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border:3px solid;
+}
+
+#scoreText{
+    font-family: "consolas",monospace;
+    font-size:71px;
+    position: relative;
+    bottom: 20px;
+}
+#resetBtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    width:109px;
+    height:47px;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor:pointer;
+    position: relative;
+    bottom: 30px;
+
+}
+#div1{
+    font-size: 20px;
+    position: relative;
+    bottom: 500px;
+    left:40px;
+    width:300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    white-space: pre-line;
+    text-align: center;
+    color: orange;
+    
+}
+#div2{
+    font-size: 50px;
+    position:relative;
+    bottom: 550px;
+    left:40px;
+    width:300px;
+    font-family:cursive;
+    
+    white-space: pre-line;
+    text-align: center;
+    color: black;
+}
+
+body {
+    overflow: hidden;
+}
